@@ -29,9 +29,7 @@
       - `%d`：十进制显示 int 或 long 类型整数（若系统中 int 与 long 的大小相同）
       - `%lx`：十六进制显示 long 类型整数
       - `%lo`：八进制显示 long 类型整数
-      > 注意：
-      > 1. int 类型
-      > 2. 👉 有些情况下，需要编译器以 long 类型存储一个小数字，可在声明定义值的末尾加上 `l` 或 `L` 后缀，如 5L、0x10LL、6ull 等。
+      > 👉 有些情况下，需要编译器以 long 类型存储一个小数字，可在声明定义值的末尾加上 `l` 或 `L` 后缀，如 5L、0x10LL、6ull 等。
     - long long：
       - long long 与 signed long long int 或 long long int 等效
       - `%lld`：十进制显示 long long 类型整数
