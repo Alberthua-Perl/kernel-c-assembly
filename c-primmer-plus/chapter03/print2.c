@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
+	printf("### Test int and long type variable ###\n");
 	int a = 4096;
 	long b = 12L;  /* 使用 l 或 L 后缀表示 long 类型的变量 */
 
@@ -13,6 +14,7 @@ int main(void) {
 	long big = 65537;
 	long long verybig = 12345678908642;
 
+    printf("### Test unsigned, short, long, long long type variable ###\n");
 	printf("un = %u and not %d\n", un, un);
 	/* 输出中的这两个值在系统内存中表示完全相同 */
 	printf("end = %hd and not %d\n", end, end);
