@@ -9,13 +9,13 @@ int main(void) {
     float somef = 4.0f * 2.0f;
     double somed = 4.0 * 2.0;
 
-    printf("### Test float, double and long double type ###\n");
+    printf("### 转换输出 float, double and long double 类型变量 ###\n");
     printf("%f can be written %e\n", aboat, aboat);
     printf("And it's %a in hexadecimal, powers of 2 notation\n", aboat);
     printf("%f can be written %E\n", abet, abet);
     printf("%Lf can be written %Le\n", dip, dip);
 
-    printf("### Test default double type ###\n");
+    printf("### 测试默认为 double 类型浮点数运算 ###\n");
     printf("somef is %f\n", somef);
     printf("somed is %f\n", somed);
 
