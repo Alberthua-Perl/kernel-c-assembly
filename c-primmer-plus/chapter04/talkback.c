@@ -12,7 +12,7 @@ int main(void) {
     scanf("%s", name);  // 刷新缓冲区
     printf("%s, what's your weight in pounds?\n", name);
     scanf("%f", &weight);
-    size = sizeof name;  // sizeof 操作符返回 name 字符串变量的大小（字节）
+    size = sizeof name;  // sizeof 操作符返回 name 字符串变量的大小（即内存中占用的字节数）
     letters = strlen(name);  // strlen() 函数返回字符串的字符数量
     volume = weight / DENSITY;
     printf("Well, %s, your volume is %2.2f cubic feet.\n", 

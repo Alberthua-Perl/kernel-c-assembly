@@ -14,5 +14,5 @@ int main(void) {
             strlen(PRAISE));
     printf("and occupies %zd memory cells.\n", sizeof PRAISE);  /* 字符串常量末尾的空字符占1个字节 */ 
 
-    return 0;        
+    return 0;
 }
