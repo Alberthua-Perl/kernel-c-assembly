@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #define PRAISE "You are an extraordinary being."
+/* define 预处理器定义的符号变量可被 sizeof 识别末尾的空字符 */
 
 int main(void) {
     char name[40];
