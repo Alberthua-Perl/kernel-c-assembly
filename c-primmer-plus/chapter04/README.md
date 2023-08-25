@@ -41,3 +41,13 @@
   ```c
   const int MONTHS = 12;  /* const 声明 MONTHS 符号常量 */
   ```
+
+- 💪 系统定义的明显常量：明显常量定义于 `/usr/include/limits.h` 与 `/usr/lib/gcc/x86_64-redhat-linux/8/include/float.h` 头文件中。
+
+  > 注意：以上两个头文件分别位于笔者所使用的环境中，具体的符号常量定义请查看源文件。
+
+### 研究和利用 printf() 和 scanf()：
+
+- printf() 函数使用 `%` 来标识转换说明，如需表示 % 本身，需使用两个 % 表示。
+
+  
