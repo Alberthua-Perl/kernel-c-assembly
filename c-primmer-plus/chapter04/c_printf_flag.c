@@ -14,7 +14,7 @@ int main(void) {
     printf("float b: %  19.2f\n", b);
     printf("double c: %21.1e\n", c);
     printf("string str: %23s\n", str);  // 字符串宽度占 23 个字符向右对齐
-    printf("symbolic const Pi: %09.2f\n", Pi);  // 符号常量宽度占 9 个字符并用前置 0 补齐空格
+    printf("symbolic const Pi: %09.2f\n", Pi);  // 符号常量宽度占 9 个字符并用前导 0 补齐空格
 
     return 0;
 }
