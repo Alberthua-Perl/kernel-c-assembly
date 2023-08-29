@@ -29,17 +29,17 @@
 - `#define` 声明符号常量的示例：
 
   ```c
-  #define Pi 3.14159  /* 明显常量声明 */
-  #define BEEP '\a'  /* 字符常量声明 */
+  #define Pi 3.14159  // 明显常量声明
+  #define BEEP '\a'  // 字符常量声明
   #define TEE 'T'
   #define ESC '\033'
-  #define OOPS "Now you have done it!"  /* 字符串常量声明 */
+  #define OOPS "Now you have done it!"  // 字符串常量声明
   ```
 
 - `const` 修饰符示例：
 
   ```c
-  const int MONTHS = 12;  /* const 声明 MONTHS 符号常量 */
+  const int MONTHS = 12;  // const 声明 MONTHS 符号常量
   ```
 
 - 💪 系统定义的明显常量：明显常量定义于 `/usr/include/limits.h` 与 `/usr/lib/gcc/x86_64-redhat-linux/8/include/float.h` 头文件中。
@@ -51,4 +51,10 @@
 - printf() 函数使用 `%` 来标识转换说明，如需表示 % 本身，需使用两个 % 表示。
 
 - 🏷 printf() 函数转换说明的修饰符与标志说明，如 `%05.3d` 表示整形值字段宽度为 5（修饰符），最小精度位数为 3（修饰符），若前导 0（标志）与最小精度同时出现，前导 0 将忽略。
+
+- ✨ 使用 printf() 函数的不同转换说明可以将一个数字解释成为不同的值，因此需确认当前系统上支持的各数据类型的大小（`sizeof` 操作符），不同的数据类型转换之间可能需要通过截断处理，此处可参考程序代码 `intconv.c`。
+
+  > 注意：2 的补码方式用于有符号（signed）与无符号（unsigned）数值间的转换，而数值的截断处理用于表示大范围数值向小范围数值的转换（二进制数值的截断）。
+
+- printf() 函数打印较长的字符串时，空白字符（空格、制表符与换行符）若不用于分隔元素，C 将忽略它们。因此，可在多行放置一个语句，只要在元素之间放置换行符即可。不过，不能在引号括起来的字符串中间断行。关于打印较长字符串的示例可参考程序代码 `longstrg.c`。
 
