@@ -8,8 +8,8 @@
 
   - GCC 版本：`8.5.0`
 
-- *C Primer Plus（中文版）第六版*
+- *C Primer Plus（中文版）第六版*：
   
   ![](https://github.com/Alberthua-Perl/kernel-c-assembly/blob/master/c-primer-plus-book.jpg)
 
-  Learn C basic knowledge from *C Primmer Plus* and build standard or customized programmes.
+  依据 *C Primmer Plus* 学习 C 语言基础语法并且构建标准的与自定义程序进行测试。
