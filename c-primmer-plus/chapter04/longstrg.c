@@ -11,7 +11,7 @@ int main(void) {
     // 以上语句为错误的使用方法，造成编译失败。
     printf("Here's the third way to print a "
            "long string.\n");  // ANSI C
+    getchar();
 
     return 0;
 }
-

@@ -6,7 +6,9 @@ int main(void) {
     int a = 20;
     float b = 4.2338;
     double c = 3.28E+20;
-    char str[12] = "hello world";  // 字符串具有 11 个字符与末尾的空字符（共 12 个字符）
+    char str[] = "hello world";
+    // 字符串具有 11 个字符与末尾的空字符（共 12 个字符）
+    // 可直接声明字符串（字符数组）
 
     printf("int a converted to oct: %#o\n", a);
     printf("int a converted to hex: %#x\n", a);
@@ -18,3 +20,4 @@ int main(void) {
 
     return 0;
 }
+
