@@ -2,7 +2,6 @@
 #include <stdio.h>
 
 int main(void) {
-    unsigned short item;
     int age;
     float assets;
     //double assets;
@@ -15,7 +14,7 @@ int main(void) {
      */
 
     printf("Enter your age, assets and favorite pet.\n");
-    item = scanf("%d,%f%c", &age, &assets, &wd);  // 格式字符串中的普通字符；scanf() 函数返回成功读取的项数
+    unsigned short item = scanf("%d,%f%c", &age, &assets, &wd);  // 格式字符串中的普通字符；scanf() 函数返回成功读取的项数
     /* scanf("%d,%f %c", &age, &assets, &wd);  以上操作符结果与此行结果相同（跳过空白读取第一个非空白字符） */
     /* scanf("%d %lf ", &age, &assets);  使用 l 修饰符表示 double 类型 */
     scanf("%s", pet);
