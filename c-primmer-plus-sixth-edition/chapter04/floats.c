@@ -1,7 +1,8 @@
 /* floats.c - 一些浮点数的组合 */
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
     double RENT = 3852.99;
 
     printf("*%f*\n", RENT);

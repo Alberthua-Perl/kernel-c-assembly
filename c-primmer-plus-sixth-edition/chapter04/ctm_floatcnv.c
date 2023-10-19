@@ -1,7 +1,8 @@
 /* floatcnv.c - 浮点数类型不匹配的转换说明 */
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
     float n1 = 3.0;
     double n2 = 3.0;
     long n3 = 2000000000;

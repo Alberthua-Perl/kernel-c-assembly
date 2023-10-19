@@ -3,7 +3,8 @@
 #include <string.h>  // 提供 strlen() 函数的原型
 #define DENSITY 62.4  // C 预处理器指令：define
 
-int main(void) {
+int main(void)
+{
     float weight, volume;
     int size, letters;
     char name[40];  // 字符串定义：char 类型的数组

@@ -1,7 +1,8 @@
 /* input.c - 什么情况下使用 & */
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
     int age;
     float assets;
     //double assets;

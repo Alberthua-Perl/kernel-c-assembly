@@ -3,7 +3,8 @@
 #include <limits.h>  /* limits.h 头文件中定义系统的符号常量 */
 #include <float.h>
 
-int main(void) {
+int main(void)
+{
     printf("Some number limits for this system: \n");
     printf("Biggest int: %d\n", INT_MAX);  // 有符号整型数显示添加 "+" 号并占 20 个字符宽度
     // printf("Maximum int value on the system = %d\n", INT_MAX);

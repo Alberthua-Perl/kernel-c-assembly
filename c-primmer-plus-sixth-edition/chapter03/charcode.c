@@ -1,7 +1,8 @@
 /* charcode.c - 显示字符的代码编号 */
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
     unsigned char ch;
     char nerf = '\n';
 

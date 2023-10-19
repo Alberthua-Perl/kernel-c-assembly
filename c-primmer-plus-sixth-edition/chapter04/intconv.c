@@ -4,7 +4,8 @@
 #define PAGES 336
 #define WORDS 65618
 
-int main(void) {
+int main(void)
+{
     short num = PAGES;
     short mnum = -PAGES;
 

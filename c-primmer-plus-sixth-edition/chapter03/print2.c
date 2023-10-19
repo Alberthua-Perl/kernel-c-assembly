@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
 	printf("### 转换输出 int 与 long 类型变量 ###\n");
 	int a = 4096;
 	long b = 12L;  /* 使用 l 或 L 后缀表示 long 类型的变量 */

@@ -1,7 +1,8 @@
 /* varwid.c - 使用变宽输出字段 */
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
     unsigned width, precision;
     int number = 36;
     double weight = 242.5;

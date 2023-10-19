@@ -2,7 +2,8 @@
 #include <stdio.h>
 #define Pi 3.14159
 
-int main(void) {
+int main(void)
+{
     int a = 20;
     float b = 4.2338;
     double c = 3.28E+20;

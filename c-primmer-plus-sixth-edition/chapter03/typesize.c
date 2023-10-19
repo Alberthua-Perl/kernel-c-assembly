@@ -1,7 +1,8 @@
 /* typesize.c - 打印类型大小 */
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
     // sizeof 为 C 语言的内置运算符，以字节为单位返回给定数据类型的大小，
     // 即为该类型在当前系统上被支持的最大取值宽度。
     printf("Size for type short:      %zd bytes\n", sizeof(short));
@@ -16,4 +17,3 @@ int main(void) {
 
     return 0;
 }
-

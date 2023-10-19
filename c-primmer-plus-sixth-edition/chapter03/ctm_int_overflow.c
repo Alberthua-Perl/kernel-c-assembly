@@ -1,7 +1,8 @@
 /* integer_overflow.c - 超出系统上的最大整数值 (整形溢出测试) */
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
 	int i = 2147483647;  /* int 类型变量的最大值 */
 	unsigned long j = 4294967295;  /* long 类型变量的最大值 */
 

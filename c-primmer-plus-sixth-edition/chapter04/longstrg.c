@@ -1,7 +1,8 @@
 /* longstrg.c - 打印较长的字符串 */
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
     printf("Here's the first way to print a ");
     printf("long string.\n");
     printf("Here's the second way to print a \

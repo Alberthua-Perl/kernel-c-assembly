@@ -1,7 +1,8 @@
 #include <stdio.h>
 #define Pi 3.14159
 
-int main(void) {
+int main(void)
+{
     float area, circum, radius;
 
     printf("What is the radius of your pizza?\n");

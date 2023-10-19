@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <inttypes.h>  /* 该头文件中定义了整数类型打印的宏 */
 
-int main(void) {
+int main(void)
+{
     int32_t me32;  /* 32 位有符号整数类型 */
 
     me32 = 45933945;

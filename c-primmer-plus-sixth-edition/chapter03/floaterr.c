@@ -1,7 +1,8 @@
 /* floaterr.c - 演示浮点值舍入错误 */
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
     float a, b;
 
     b = 2.0e20 + 1.0;

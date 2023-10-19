@@ -3,7 +3,8 @@
 #include <string.h>  /* 提供 strlen() 函数原型 */
 #define PRAISE "You are an extraordinary being."
 
-int main(void) {
+int main(void)
+{
     char name[40];
 
     short length;
