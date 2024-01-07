@@ -10,7 +10,7 @@
 
 - *C Primer Plus（中文版）第六版*：
   
-  ![](https://github.com/Alberthua-Perl/kernel-c-assembly/blob/master/c-primer-plus-book.jpg)
+  ![](https://github.com/Alberthua-Perl/kernel-c-assembly/blob/master/c-primmer-plus-book.jpg)
 
   🧪 重要的头文件：`stdint.h`、`inttypes.h`、`limits.h`、`float.h`、`string.h`
 
