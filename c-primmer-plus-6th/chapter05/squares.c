@@ -1,3 +1,4 @@
+/* squares.c -- 递增数列的平方数 */
 #include <stdio.h>
 
 int main(void)
