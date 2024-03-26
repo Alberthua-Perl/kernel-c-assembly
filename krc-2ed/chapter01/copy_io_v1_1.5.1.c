@@ -5,7 +5,9 @@
 void main(void)
 {
 	printf("Get char from STDIN: ");
-	int c = getchar();  /* 定义声明整形变量 */
+	int c = getchar();  
+	/* 定义声明整型变量：若启用以下 printf() 函数可打印出每个输入字符末尾的换行符 \n，
+	 * getchar() 与 putchar() 函数将识别该特殊字符，可使用 Ctrl+D 中止输入并返回 */
 	
 	while (c != EOF) {  /* 判断字符是否为文件结束标志符 EOF */
 		//printf("\nSTDIN char is: ");
@@ -16,4 +18,3 @@ void main(void)
 		 * 读取一个字符。*/
 	}
 }
-
