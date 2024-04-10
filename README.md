@@ -13,8 +13,6 @@
 - 📚 涉及的书籍与材料如下所示：
 
   - *C Primer Plus（中文版）第六版*：`c-primer-plus-6ed`
-  
-    ![](https://github.com/Alberthua-Perl/kernel-c-assembly/blob/master/c-primmer-plus-book.jpg)
 
   - *C 程序设计语言（第二版）*：`krc-2ed`
 
