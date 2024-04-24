@@ -1,4 +1,4 @@
-/* 此示例使用 ANSI C 规范，因此编译运行时使用以下命令：
+/* 此示例使用 ANSI C 规范与 GDB 调试，因此编译运行时使用以下命令：
  *  $ gcc char_array_1.9.c -ansi -g -o char_array_1.9
  */
 #include <stdio.h>
@@ -22,7 +22,7 @@ int main(void)
             copy(longest, line);
         }
     }
-    printf("*NOTE* %d chars: %s\n", max, longest);
+    printf("\n => NOTE: total chars %d: %s\n", max, longest);
     /* 由于 max 由 len 赋值，其值大于 0，而无需示例代码中的条件判断 */
     /* if (max > 0)
      *     printf("### %d chars: %s\n", max, longest);
@@ -38,7 +38,7 @@ int getline(char s[], int lim)
     
     for (i = 0; i < lim-1 && (c = getchar()) != EOF && c != '\n'; ++i) {
         s[i] = c;
-    }
+    }	/* ++i 为更新表达式，在每次循环的最后执行 */
     if (c == '\n') {
         s[i] = c;
         ++i;
