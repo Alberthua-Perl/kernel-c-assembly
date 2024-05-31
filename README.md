@@ -1,4 +1,4 @@
-## C and assembly language for kernel learning path
+# C and Assembly Language for kernel learning path
 
 - 环境说明：
 
@@ -16,6 +16,6 @@
 
   - *C 程序设计语言（第二版）*：`krc-2ed`
 
-    🚀 重要的头文件：`stdint.h`、`inttypes.h`、`limits.h`、`float.h`、`string.h`
+    🚀 重要的头文件：<stdint.h>, <inttypes.h>, <limits.h>, <float.h>, <string.h>
 
   - *深入理解计算机系统（第三版）*：`csapp-3ed`

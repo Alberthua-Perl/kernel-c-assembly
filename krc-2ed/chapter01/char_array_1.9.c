@@ -1,5 +1,11 @@
-/* 此示例使用 ANSI C 规范与 GDB 调试，因此编译运行时使用以下命令：
- *  $ gcc char_array_1.9.c -ansi -g -o char_array_1.9
+/* 
+ * - 此示例使用 ANSI C 规范并支持 GDB 调试，因此编译时使用以下命令：
+ *     $ gcc char_array_1.9.c -ansi -g -o char_array_1.9
+ * - 该程序用于查询标准输入或文本文件中的最长行及对应的字符数：
+ *     $ ./char_array_1.9					# 支持标准输入
+ *     $ ./char_array_1.9 < /path/to/file	# 支持来自文本文件的输入
+ * - 该程序与其另一版本效果相同：extern_dom_1.10.c    
+ *
  */
 #include <stdio.h>
 #define MAXLINE 1000    /* 允许输入行的最大长度 */
