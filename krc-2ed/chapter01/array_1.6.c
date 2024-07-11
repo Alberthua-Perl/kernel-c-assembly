@@ -1,27 +1,37 @@
-/* array.c - 统计输入的字符类型数量 
- * (包括字符/空白符/其他字符) */
 #include <stdio.h>
 
+/* 统计输入的字符数量，即数字、空白符(包括空格、
+ * 制表符与换行符)以及其他字符 */
 int main(void)
 {
-	int c, i, nwhite, nother;
+	int c, i, tc, nwhite, nother;
 	int ndigit[10];
 
-	nwhite = nother = 0;
-	for (i = 0; i < 10; ++i)
+	tc = nwhite = nother = 0;
+	for (i = 0; i < 10; ++i) {  /* 初始化数组 */
 		ndigit[i] = 0;
+    }
 
-	while ((c = getchar()) != EOF)
-		if (c >= '0' && c <= '9')
-			++ndigit[c-'0'];
-		else if (c == ' ' || c == '\t' || c == '\n')
+	while ((c = getchar()) != EOF) {
+        ++tc;   /* 统计所有的输入字符数量 */
+		if (c >= '0' && c <= '9') {
+			++ndigit[c-'0'];    /* 转换字符为数字 */
+		} else if (c == ' ' || c == '\t' || c == '\n') {
 			++nwhite;
-		else
+		} else {
 			++nother;
+        }
+    }
+    /* Ctrl+D 终止键盘输入 */
 
 	printf("digits =");
-	for (i = 0; i < 10; ++i)
+	for (i = 0; i < 10; ++i) {
 		printf(" %d", ndigit[i]);
-	printf(", white space = %d, other = %d\n", nwhite, nother);  
+        /* ndigit 为整型变量，若直接打印，返回一个整型值，因此，需使用循环逐一打印对应数字出现的数值 */
+    }
+	printf(", total char = %d, white space = %d, other = %d\n", 
+            tc, nwhite, nother);  
+
+    return 0;
 }
 

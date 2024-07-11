@@ -1,4 +1,4 @@
-## C and assembly language for kernel learning path
+# C and Assembly Language for kernel learning path
 
 - 环境说明：
 
@@ -8,10 +8,14 @@
 
   - GCC 版本：`8.5.0`
 
-- *C Primer Plus（中文版）第六版*：
-  
-  ![](https://github.com/Alberthua-Perl/kernel-c-assembly/blob/master/c-primmer-plus-book.jpg)
+- 📝 此仓库用于汇编语言、C 语言与 Linux 内核学习的实验及问题记录
 
-  🧪 重要的头文件：`stdint.h`、`inttypes.h`、`limits.h`、`float.h`、`string.h`
+- 📚 涉及的书籍与材料如下所示：
 
-  依据 *C Primmer Plus* 学习 C 语言基础语法并且构建标准的与自定义程序进行测试。
+  - *C Primer Plus（中文版）第六版*：`c-primer-plus-6ed`
+
+  - *C 程序设计语言（第二版）*：`krc-2ed`
+
+    🚀 重要的头文件：<stdint.h>, <inttypes.h>, <limits.h>, <float.h>, <string.h>
+
+  - *深入理解计算机系统（第三版）*：`csapp-3ed`

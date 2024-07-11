@@ -1,0 +1,10 @@
+DEVICE=ens160
+NM_CONTROLLED=yes
+USERCTL=no
+BOOTPROTO=none
+
+UUID=a1091cdf-55af-448c-b0a6-6dae02b0a4e7
+BRIDGE=br0
+ONBOOT=yes
+TYPE=Ethernet
+NAME="System ens160"
