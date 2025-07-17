@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// 2.7 类型转换
+/* 2.7 类型转换 */
 int atoi(char s[])
 {
 	int i, n;
@@ -14,7 +14,7 @@ int atoi(char s[])
 
 int main(void)
 {
-  // 2.5 算术运算符
+  /* 2.5 算术运算符 */
   int year;
 
   printf("Please type year: ");
@@ -24,7 +24,7 @@ int main(void)
 	else
 		printf("%d is not a leap year.\n", year);
 
-  // 2.7 类型转换：atoi 函数将字符串 s 转换为相应的整形数
+  /* 2.7 类型转换：atoi 函数将字符串 s 转换为相应的整形数 */
   char str[] = "hello world!";
   atoi(str);
 
